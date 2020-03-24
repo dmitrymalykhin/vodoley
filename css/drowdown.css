@@ -1,0 +1,21 @@
+.dropdown-content {
+	display: none;
+	position: absolute;
+	z-index: 10;
+	padding-top: 20px;
+	width: 100%;
+	left: 0;
+}
+.content {
+	background: #f4f8f9;
+	padding: 35px;
+}
+.dropbtn {
+	cursor: pointer;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+.show {
+	display: block!important;
+}
