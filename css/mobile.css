@@ -34,14 +34,16 @@ background: #000;}
 	-webkit-transition: left 0.3s;
 	-moz-transition: left 0.3s;
 	transition: left 0.3s;
-	background: #fff;
+	background: #f5f8f9;
 	z-index: 9;
+	top: 0;
+  right: 0;
+  padding: 25px 20px 20px 20px;
 }
 .hamburger-active .hamburger-menu {
 	left: 0;
 	overflow-y: auto;
 }
-
 .filter-icon-wrapper {
 cursor: pointer;
 position:relative;
