@@ -11,7 +11,9 @@
 	<link rel="stylesheet" href="css/owl.theme.default.css">
 	<link rel="stylesheet" href="fonts/FuturaPT/stylesheet.css">
 	<link rel="stylesheet" href="fonts/circle/stylesheet.css">
+	<link rel="stylesheet" href="css/modal.css">
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
 
 
 
@@ -20,86 +22,106 @@
 <body>
 
 	<header>
-		<div class="top-header-shadow">
+		<div class="top-header-info">
 			<div class="container">
-				<div class="top-header">
-					<div class="search">
-						<input type="search" class="search-input" placeholder="Поиск">
-						<svg class="search-img" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-						viewBox="0 0 451 451" style="enable-background:new 0 0 451 451;" xml:space="preserve">
-						<g>
-							<path d="M447,428L337.4,318.4c29.4-33.8,47.2-77.9,47.2-126.1C384.6,86.2,298.4,0,192.4,0C86.3,0,0.1,86.3,0.1,192.3
-							s86.3,192.3,192.3,192.3c48.2,0,92.3-17.8,126.1-47.2L428,447c2.6,2.6,6.1,4,9.5,4s6.9-1.3,9.5-4C452.3,441.8,452.3,433.2,447,428z
-							M27,192.3C27,101.1,101.1,27,192.3,27c91.2,0,165.3,74.2,165.3,165.3s-74.1,165.4-165.3,165.4C101.2,357.7,27,283.5,27,192.3z"/>
-						</g>
-					</svg>
+				<div class="header-info">
+					<div class="header-info-location">
+						<img src="image/pin (8).svg" alt="" class="header-info-img">
+						ул. Адмирала Макарова д.6 стр. 13
+					</div>
+					<div class="header-info-work-time">
+						<img src="image/clock (13).svg" alt="" class="header-info-img">
+						<div class="header-info-work-time-info">
+							<span class="header-info-work-time-info-day">пн-пт:</span>10:00-19:00<span class="header-info-work-time-info-day">сб:</span>11:00 -19:00<span class="header-info-work-time-info-day">вс:</span>выходной
+						</div>
+					</div>
+					<div class="header-info-phone">
+						<a class="header-info-phone-link" href="tel:+74952740636">
+							<img src="image/phone (3).png" alt="" class="header-info-img"><span>+7 (495) 274 06 36</span></a>
+						</div>
+					</div>
 				</div>
-				<div class="logo">
-					<a class="logo-link" href="">
-						<img src="image/logo.svg" alt="" class="logo-img">
-					</a>
-				</div>
-				<div class="right-block">
-					<div class="compare">
-						<a href="#">
-							<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-							viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+			</div>
+			<div class="top-header-shadow">
+				<div class="container">
+					<div class="top-header">
+						<div class="search">
+							<input type="search" class="search-input" placeholder="Поиск">
+							<svg class="search-img" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+							viewBox="0 0 451 451" style="enable-background:new 0 0 451 451;" xml:space="preserve">
 							<g>
-								<path d="M37.4,493.1h120.5V301.3H37.4V493.1z M52.4,316.3h90.5v161.8H52.4V316.3z"/>
-								<path d="M197.1,493h120.5V208.6H197.1V493z M212.1,223.6h90.5V478h-90.5V223.6z"/>
-								<path d="M354,66.9V493h120.5V66.9H354z M459.5,478H369V81.9h90.5V478z"/>
+								<path d="M447,428L337.4,318.4c29.4-33.8,47.2-77.9,47.2-126.1C384.6,86.2,298.4,0,192.4,0C86.3,0,0.1,86.3,0.1,192.3
+								s86.3,192.3,192.3,192.3c48.2,0,92.3-17.8,126.1-47.2L428,447c2.6,2.6,6.1,4,9.5,4s6.9-1.3,9.5-4C452.3,441.8,452.3,433.2,447,428z
+								M27,192.3C27,101.1,101.1,27,192.3,27c91.2,0,165.3,74.2,165.3,165.3s-74.1,165.4-165.3,165.4C101.2,357.7,27,283.5,27,192.3z"/>
 							</g>
 						</svg>
-						Сравнить
+					</div>
+					<div class="logo">
+						<a class="logo-link" href="">
+							<img src="image/logo.svg" alt="" class="logo-img">
+						</a>
+					</div>
+					<div class="right-block">
+						<div class="compare">
+							<a href="#">
+								<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+								viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+								<g>
+									<path d="M37.4,493.1h120.5V301.3H37.4V493.1z M52.4,316.3h90.5v161.8H52.4V316.3z"/>
+									<path d="M197.1,493h120.5V208.6H197.1V493z M212.1,223.6h90.5V478h-90.5V223.6z"/>
+									<path d="M354,66.9V493h120.5V66.9H354z M459.5,478H369V81.9h90.5V478z"/>
+								</g>
+							</svg>
+							Сравнить
+						</a>
+					</div>
+					<div class="favorites">
+						<a href="#">
+							<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+							viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+							<g>
+								<g>
+									<path d="M474.6,74.3c-25.3-28.7-60.3-44.4-98.6-44.4c-53.9,0-88.1,32.2-107.3,59.3c-5,7-9.2,14-12.7,20.7
+									c-3.5-6.6-7.8-13.7-12.7-20.7c-19.2-27-53.3-59.3-107.3-59.3c-38.4,0-73.4,15.8-98.6,44.4C13.3,101.6,0,138.2,0,177.4
+									c0,42.6,16.6,82.2,52.3,124.7c31.9,38,77.8,77.1,131,122.4c19.8,16.9,40.3,34.3,62.1,53.4l0.7,0.6c2.8,2.5,6.4,3.7,9.9,3.7
+									c3.5,0,7.1-1.2,9.9-3.7l0.7-0.6c21.8-19.1,42.3-36.5,62.1-53.4c53.2-45.3,99.1-84.4,131-122.4C495.4,259.6,512,220,512,177.4
+									C512,138.2,498.7,101.6,474.6,74.3z M309.2,401.6c-17.1,14.6-34.7,29.5-53.2,45.6c-18.5-16.1-36.1-31.1-53.2-45.6
+									C98.7,312.9,30,254.4,30,177.4c0-31.8,10.6-61.4,29.9-83.2C79.3,72,106.4,59.8,136,59.8c41.1,0,67.7,25.3,82.8,46.6
+									c13.5,19.1,20.6,38.3,23,45.7c2,6.2,7.8,10.4,14.3,10.4s12.3-4.2,14.3-10.4c2.4-7.4,9.5-26.6,23-45.7
+									c15.1-21.3,41.6-46.6,82.8-46.6c29.6,0,56.7,12.2,76.1,34.3c19.3,21.9,29.9,51.4,29.9,83.2C482,254.4,413.3,312.9,309.2,401.6z"/>
+								</g>
+							</g>
+						</svg>
 					</a>
 				</div>
-				<div class="favorites">
+				<div class="cart">
 					<a href="#">
 						<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-						viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+						viewBox="0 0 486.6 486.6" style="enable-background:new 0 0 486.6 486.6;" xml:space="preserve">
 						<g>
-							<g>
-								<path d="M474.6,74.3c-25.3-28.7-60.3-44.4-98.6-44.4c-53.9,0-88.1,32.2-107.3,59.3c-5,7-9.2,14-12.7,20.7
-								c-3.5-6.6-7.8-13.7-12.7-20.7c-19.2-27-53.3-59.3-107.3-59.3c-38.4,0-73.4,15.8-98.6,44.4C13.3,101.6,0,138.2,0,177.4
-								c0,42.6,16.6,82.2,52.3,124.7c31.9,38,77.8,77.1,131,122.4c19.8,16.9,40.3,34.3,62.1,53.4l0.7,0.6c2.8,2.5,6.4,3.7,9.9,3.7
-								c3.5,0,7.1-1.2,9.9-3.7l0.7-0.6c21.8-19.1,42.3-36.5,62.1-53.4c53.2-45.3,99.1-84.4,131-122.4C495.4,259.6,512,220,512,177.4
-								C512,138.2,498.7,101.6,474.6,74.3z M309.2,401.6c-17.1,14.6-34.7,29.5-53.2,45.6c-18.5-16.1-36.1-31.1-53.2-45.6
-								C98.7,312.9,30,254.4,30,177.4c0-31.8,10.6-61.4,29.9-83.2C79.3,72,106.4,59.8,136,59.8c41.1,0,67.7,25.3,82.8,46.6
-								c13.5,19.1,20.6,38.3,23,45.7c2,6.2,7.8,10.4,14.3,10.4s12.3-4.2,14.3-10.4c2.4-7.4,9.5-26.6,23-45.7
-								c15.1-21.3,41.6-46.6,82.8-46.6c29.6,0,56.7,12.2,76.1,34.3c19.3,21.9,29.9,51.4,29.9,83.2C482,254.4,413.3,312.9,309.2,401.6z"/>
-							</g>
+							<path d="M146.1,320.4h268.1c30.4,0,55.2-24.8,55.2-55.2V152.4c0-0.1,0-0.3,0-0.4c0-0.3,0-0.5,0-0.8c0-0.2,0-0.4-0.1-0.6
+							c0-0.2-0.1-0.5-0.1-0.7s-0.1-0.4-0.1-0.6c-0.1-0.2-0.1-0.4-0.2-0.7c-0.1-0.2-0.1-0.4-0.2-0.6c-0.1-0.2-0.1-0.4-0.2-0.6
+							c-0.1-0.2-0.2-0.4-0.3-0.7c-0.1-0.2-0.2-0.4-0.3-0.5c-0.1-0.2-0.2-0.4-0.3-0.6c-0.1-0.2-0.2-0.3-0.3-0.5c-0.1-0.2-0.3-0.4-0.4-0.6
+							c-0.1-0.2-0.2-0.3-0.4-0.5c-0.1-0.2-0.3-0.3-0.4-0.5s-0.3-0.3-0.4-0.5s-0.3-0.3-0.4-0.4c-0.2-0.2-0.3-0.3-0.5-0.5
+							c-0.2-0.1-0.3-0.3-0.5-0.4c-0.2-0.1-0.4-0.3-0.6-0.4c-0.2-0.1-0.3-0.2-0.5-0.3s-0.4-0.2-0.6-0.4c-0.2-0.1-0.4-0.2-0.6-0.3
+							s-0.4-0.2-0.6-0.3s-0.4-0.2-0.6-0.3s-0.4-0.1-0.6-0.2c-0.2-0.1-0.5-0.2-0.7-0.2s-0.4-0.1-0.5-0.1c-0.3-0.1-0.5-0.1-0.8-0.1
+							c-0.1,0-0.2-0.1-0.4-0.1L118,92.1V44.7c0-0.5,0-1-0.1-1.4c0-0.1,0-0.2-0.1-0.4c0-0.3-0.1-0.6-0.1-0.9c-0.1-0.3-0.1-0.5-0.2-0.8
+							c0-0.2-0.1-0.3-0.1-0.5c-0.1-0.3-0.2-0.6-0.3-0.9c0-0.1-0.1-0.3-0.1-0.4c-0.1-0.3-0.2-0.5-0.4-0.8c-0.1-0.1-0.1-0.3-0.2-0.4
+							c-0.1-0.2-0.2-0.4-0.4-0.6c-0.1-0.2-0.2-0.3-0.3-0.5s-0.2-0.3-0.3-0.5s-0.3-0.4-0.4-0.6c-0.1-0.1-0.2-0.2-0.3-0.3
+							c-0.2-0.2-0.4-0.4-0.6-0.6c-0.1-0.1-0.2-0.2-0.3-0.3c-0.2-0.2-0.4-0.4-0.7-0.6c-0.1-0.1-0.3-0.2-0.4-0.3c-0.2-0.2-0.4-0.3-0.6-0.5
+							c-0.3-0.2-0.6-0.4-0.8-0.5c-0.1-0.1-0.2-0.1-0.3-0.2c-0.4-0.2-0.9-0.4-1.3-0.6L36,1.1c-6.9-2.9-14.8,0.3-17.7,7.2
+							s0.3,14.8,7.2,17.7l65.4,27.6v61.2v9.7v74.4v66.5v84c0,28,21,51.2,48.1,54.7c-4.9,8.2-7.8,17.8-7.8,28c0,30.1,24.5,54.5,54.5,54.5
+							s54.5-24.5,54.5-54.5c0-10-2.7-19.5-7.5-27.5h121.4c-4.8,8.1-7.5,17.5-7.5,27.5c0,30.1,24.5,54.5,54.5,54.5s54.5-24.5,54.5-54.5
+							s-24.5-54.5-54.5-54.5h-255c-15.6,0-28.2-12.7-28.2-28.2v-36.6C126.1,317.6,135.8,320.4,146.1,320.4z M213.3,432
+							c0,15.2-12.4,27.5-27.5,27.5s-27.5-12.4-27.5-27.5s12.4-27.5,27.5-27.5S213.3,416.8,213.3,432z M428.7,432
+							c0,15.2-12.4,27.5-27.5,27.5s-27.5-12.4-27.5-27.5s12.4-27.5,27.5-27.5S428.7,416.8,428.7,432z M414.2,293.4H146.1
+							c-15.6,0-28.2-12.7-28.2-28.2v-66.5v-74.4v-5L442.4,164v101.1C442.4,280.8,429.7,293.4,414.2,293.4z"/>
 						</g>
 					</svg>
 				</a>
 			</div>
-			<div class="cart">
-				<a href="#">
-					<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-					viewBox="0 0 486.6 486.6" style="enable-background:new 0 0 486.6 486.6;" xml:space="preserve">
-					<g>
-						<path d="M146.1,320.4h268.1c30.4,0,55.2-24.8,55.2-55.2V152.4c0-0.1,0-0.3,0-0.4c0-0.3,0-0.5,0-0.8c0-0.2,0-0.4-0.1-0.6
-						c0-0.2-0.1-0.5-0.1-0.7s-0.1-0.4-0.1-0.6c-0.1-0.2-0.1-0.4-0.2-0.7c-0.1-0.2-0.1-0.4-0.2-0.6c-0.1-0.2-0.1-0.4-0.2-0.6
-						c-0.1-0.2-0.2-0.4-0.3-0.7c-0.1-0.2-0.2-0.4-0.3-0.5c-0.1-0.2-0.2-0.4-0.3-0.6c-0.1-0.2-0.2-0.3-0.3-0.5c-0.1-0.2-0.3-0.4-0.4-0.6
-						c-0.1-0.2-0.2-0.3-0.4-0.5c-0.1-0.2-0.3-0.3-0.4-0.5s-0.3-0.3-0.4-0.5s-0.3-0.3-0.4-0.4c-0.2-0.2-0.3-0.3-0.5-0.5
-						c-0.2-0.1-0.3-0.3-0.5-0.4c-0.2-0.1-0.4-0.3-0.6-0.4c-0.2-0.1-0.3-0.2-0.5-0.3s-0.4-0.2-0.6-0.4c-0.2-0.1-0.4-0.2-0.6-0.3
-						s-0.4-0.2-0.6-0.3s-0.4-0.2-0.6-0.3s-0.4-0.1-0.6-0.2c-0.2-0.1-0.5-0.2-0.7-0.2s-0.4-0.1-0.5-0.1c-0.3-0.1-0.5-0.1-0.8-0.1
-						c-0.1,0-0.2-0.1-0.4-0.1L118,92.1V44.7c0-0.5,0-1-0.1-1.4c0-0.1,0-0.2-0.1-0.4c0-0.3-0.1-0.6-0.1-0.9c-0.1-0.3-0.1-0.5-0.2-0.8
-						c0-0.2-0.1-0.3-0.1-0.5c-0.1-0.3-0.2-0.6-0.3-0.9c0-0.1-0.1-0.3-0.1-0.4c-0.1-0.3-0.2-0.5-0.4-0.8c-0.1-0.1-0.1-0.3-0.2-0.4
-						c-0.1-0.2-0.2-0.4-0.4-0.6c-0.1-0.2-0.2-0.3-0.3-0.5s-0.2-0.3-0.3-0.5s-0.3-0.4-0.4-0.6c-0.1-0.1-0.2-0.2-0.3-0.3
-						c-0.2-0.2-0.4-0.4-0.6-0.6c-0.1-0.1-0.2-0.2-0.3-0.3c-0.2-0.2-0.4-0.4-0.7-0.6c-0.1-0.1-0.3-0.2-0.4-0.3c-0.2-0.2-0.4-0.3-0.6-0.5
-						c-0.3-0.2-0.6-0.4-0.8-0.5c-0.1-0.1-0.2-0.1-0.3-0.2c-0.4-0.2-0.9-0.4-1.3-0.6L36,1.1c-6.9-2.9-14.8,0.3-17.7,7.2
-						s0.3,14.8,7.2,17.7l65.4,27.6v61.2v9.7v74.4v66.5v84c0,28,21,51.2,48.1,54.7c-4.9,8.2-7.8,17.8-7.8,28c0,30.1,24.5,54.5,54.5,54.5
-						s54.5-24.5,54.5-54.5c0-10-2.7-19.5-7.5-27.5h121.4c-4.8,8.1-7.5,17.5-7.5,27.5c0,30.1,24.5,54.5,54.5,54.5s54.5-24.5,54.5-54.5
-						s-24.5-54.5-54.5-54.5h-255c-15.6,0-28.2-12.7-28.2-28.2v-36.6C126.1,317.6,135.8,320.4,146.1,320.4z M213.3,432
-						c0,15.2-12.4,27.5-27.5,27.5s-27.5-12.4-27.5-27.5s12.4-27.5,27.5-27.5S213.3,416.8,213.3,432z M428.7,432
-						c0,15.2-12.4,27.5-27.5,27.5s-27.5-12.4-27.5-27.5s12.4-27.5,27.5-27.5S428.7,416.8,428.7,432z M414.2,293.4H146.1
-						c-15.6,0-28.2-12.7-28.2-28.2v-66.5v-74.4v-5L442.4,164v101.1C442.4,280.8,429.7,293.4,414.2,293.4z"/>
-					</g>
-				</svg>
-			</a>
 		</div>
 	</div>
-</div>
 </div>
 </div>
 <div class="container">
@@ -255,6 +277,180 @@
 			</ul>
 		</div>
 	</div>
+
+
+
+
+	<div class="m-header">
+		<div class="mobile-menu">
+			<div class="logo">
+				<a class="logo-link" href="">
+					<img src="image/logo.svg" alt="" class="logo-img">
+				</a>
+			</div>
+			<div id="hamburger" class="hamburger-icon-wrapper">
+				<span class="hamburger-icon"></span>
+			</div>
+			<div class="hamburger-menu">
+				<div class="right-block">
+					<div class="favorites">
+						<a href="#">
+							<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+							viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+							<g>
+								<g>
+									<path d="M474.6,74.3c-25.3-28.7-60.3-44.4-98.6-44.4c-53.9,0-88.1,32.2-107.3,59.3c-5,7-9.2,14-12.7,20.7
+									c-3.5-6.6-7.8-13.7-12.7-20.7c-19.2-27-53.3-59.3-107.3-59.3c-38.4,0-73.4,15.8-98.6,44.4C13.3,101.6,0,138.2,0,177.4
+									c0,42.6,16.6,82.2,52.3,124.7c31.9,38,77.8,77.1,131,122.4c19.8,16.9,40.3,34.3,62.1,53.4l0.7,0.6c2.8,2.5,6.4,3.7,9.9,3.7
+									c3.5,0,7.1-1.2,9.9-3.7l0.7-0.6c21.8-19.1,42.3-36.5,62.1-53.4c53.2-45.3,99.1-84.4,131-122.4C495.4,259.6,512,220,512,177.4
+									C512,138.2,498.7,101.6,474.6,74.3z M309.2,401.6c-17.1,14.6-34.7,29.5-53.2,45.6c-18.5-16.1-36.1-31.1-53.2-45.6
+									C98.7,312.9,30,254.4,30,177.4c0-31.8,10.6-61.4,29.9-83.2C79.3,72,106.4,59.8,136,59.8c41.1,0,67.7,25.3,82.8,46.6
+									c13.5,19.1,20.6,38.3,23,45.7c2,6.2,7.8,10.4,14.3,10.4s12.3-4.2,14.3-10.4c2.4-7.4,9.5-26.6,23-45.7
+									c15.1-21.3,41.6-46.6,82.8-46.6c29.6,0,56.7,12.2,76.1,34.3c19.3,21.9,29.9,51.4,29.9,83.2C482,254.4,413.3,312.9,309.2,401.6z"/>
+								</g>
+							</g>
+						</svg>
+					</a>
+				</div>
+				<div class="cart">
+					<a href="#">
+						<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+						viewBox="0 0 486.6 486.6" style="enable-background:new 0 0 486.6 486.6;" xml:space="preserve">
+						<g>
+							<path d="M146.1,320.4h268.1c30.4,0,55.2-24.8,55.2-55.2V152.4c0-0.1,0-0.3,0-0.4c0-0.3,0-0.5,0-0.8c0-0.2,0-0.4-0.1-0.6
+							c0-0.2-0.1-0.5-0.1-0.7s-0.1-0.4-0.1-0.6c-0.1-0.2-0.1-0.4-0.2-0.7c-0.1-0.2-0.1-0.4-0.2-0.6c-0.1-0.2-0.1-0.4-0.2-0.6
+							c-0.1-0.2-0.2-0.4-0.3-0.7c-0.1-0.2-0.2-0.4-0.3-0.5c-0.1-0.2-0.2-0.4-0.3-0.6c-0.1-0.2-0.2-0.3-0.3-0.5c-0.1-0.2-0.3-0.4-0.4-0.6
+							c-0.1-0.2-0.2-0.3-0.4-0.5c-0.1-0.2-0.3-0.3-0.4-0.5s-0.3-0.3-0.4-0.5s-0.3-0.3-0.4-0.4c-0.2-0.2-0.3-0.3-0.5-0.5
+							c-0.2-0.1-0.3-0.3-0.5-0.4c-0.2-0.1-0.4-0.3-0.6-0.4c-0.2-0.1-0.3-0.2-0.5-0.3s-0.4-0.2-0.6-0.4c-0.2-0.1-0.4-0.2-0.6-0.3
+							s-0.4-0.2-0.6-0.3s-0.4-0.2-0.6-0.3s-0.4-0.1-0.6-0.2c-0.2-0.1-0.5-0.2-0.7-0.2s-0.4-0.1-0.5-0.1c-0.3-0.1-0.5-0.1-0.8-0.1
+							c-0.1,0-0.2-0.1-0.4-0.1L118,92.1V44.7c0-0.5,0-1-0.1-1.4c0-0.1,0-0.2-0.1-0.4c0-0.3-0.1-0.6-0.1-0.9c-0.1-0.3-0.1-0.5-0.2-0.8
+							c0-0.2-0.1-0.3-0.1-0.5c-0.1-0.3-0.2-0.6-0.3-0.9c0-0.1-0.1-0.3-0.1-0.4c-0.1-0.3-0.2-0.5-0.4-0.8c-0.1-0.1-0.1-0.3-0.2-0.4
+							c-0.1-0.2-0.2-0.4-0.4-0.6c-0.1-0.2-0.2-0.3-0.3-0.5s-0.2-0.3-0.3-0.5s-0.3-0.4-0.4-0.6c-0.1-0.1-0.2-0.2-0.3-0.3
+							c-0.2-0.2-0.4-0.4-0.6-0.6c-0.1-0.1-0.2-0.2-0.3-0.3c-0.2-0.2-0.4-0.4-0.7-0.6c-0.1-0.1-0.3-0.2-0.4-0.3c-0.2-0.2-0.4-0.3-0.6-0.5
+							c-0.3-0.2-0.6-0.4-0.8-0.5c-0.1-0.1-0.2-0.1-0.3-0.2c-0.4-0.2-0.9-0.4-1.3-0.6L36,1.1c-6.9-2.9-14.8,0.3-17.7,7.2
+							s0.3,14.8,7.2,17.7l65.4,27.6v61.2v9.7v74.4v66.5v84c0,28,21,51.2,48.1,54.7c-4.9,8.2-7.8,17.8-7.8,28c0,30.1,24.5,54.5,54.5,54.5
+							s54.5-24.5,54.5-54.5c0-10-2.7-19.5-7.5-27.5h121.4c-4.8,8.1-7.5,17.5-7.5,27.5c0,30.1,24.5,54.5,54.5,54.5s54.5-24.5,54.5-54.5
+							s-24.5-54.5-54.5-54.5h-255c-15.6,0-28.2-12.7-28.2-28.2v-36.6C126.1,317.6,135.8,320.4,146.1,320.4z M213.3,432
+							c0,15.2-12.4,27.5-27.5,27.5s-27.5-12.4-27.5-27.5s12.4-27.5,27.5-27.5S213.3,416.8,213.3,432z M428.7,432
+							c0,15.2-12.4,27.5-27.5,27.5s-27.5-12.4-27.5-27.5s12.4-27.5,27.5-27.5S428.7,416.8,428.7,432z M414.2,293.4H146.1
+							c-15.6,0-28.2-12.7-28.2-28.2v-66.5v-74.4v-5L442.4,164v101.1C442.4,280.8,429.7,293.4,414.2,293.4z"/>
+						</g>
+					</svg>
+				</a>
+			</div>
+			<div class="compare">
+				<a href="#">
+					<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+					viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+					<g>
+						<path d="M37.4,493.1h120.5V301.3H37.4V493.1z M52.4,316.3h90.5v161.8H52.4V316.3z"/>
+						<path d="M197.1,493h120.5V208.6H197.1V493z M212.1,223.6h90.5V478h-90.5V223.6z"/>
+						<path d="M354,66.9V493h120.5V66.9H354z M459.5,478H369V81.9h90.5V478z"/>
+					</g>
+				</svg>
+				Сравнить
+			</a>
+		</div>
+	</div>
+	<div class="search">
+		<input type="search" class="search-input" placeholder="Поиск">
+		<svg class="search-img" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+		viewBox="0 0 451 451" style="enable-background:new 0 0 451 451;" xml:space="preserve">
+		<g>
+			<path d="M447,428L337.4,318.4c29.4-33.8,47.2-77.9,47.2-126.1C384.6,86.2,298.4,0,192.4,0C86.3,0,0.1,86.3,0.1,192.3
+			s86.3,192.3,192.3,192.3c48.2,0,92.3-17.8,126.1-47.2L428,447c2.6,2.6,6.1,4,9.5,4s6.9-1.3,9.5-4C452.3,441.8,452.3,433.2,447,428z
+			M27,192.3C27,101.1,101.1,27,192.3,27c91.2,0,165.3,74.2,165.3,165.3s-74.1,165.4-165.3,165.4C101.2,357.7,27,283.5,27,192.3z"/>
+		</g>
+	</svg>
+</div>
+<div id="menu" class="hamburger-menu-list">
+	<ul class="navbar-list">
+		<li class="navbar-list-item active">
+			<div class="dropdown">
+				<a class="dropbtn item-link" onclick="showDropdownContent('m-catalog')">Каталог</a>
+				<div class="dropdown-content" id="m-catalog">
+					<div class="row">
+						<ul class="col-6">
+							<li class="catalog-item">
+								<a href="#" class="catalog-item-link">Ванны</a>
+							</li>
+							<li class="catalog-item">
+								<a href="#" class="catalog-item-link">Раковины</a>
+							</li>
+							<li class="catalog-item">
+								<a href="#" class="catalog-item-link">Смесители</a>
+							</li>
+							<li class="catalog-item">
+								<a href="#" class="catalog-item-link">Унитазы и биде</a>
+							</li>
+							<li class="catalog-item">
+								<a href="#" class="catalog-item-link">Писсуары</a>
+							</li>
+							<li class="catalog-item">
+								<a href="#" class="catalog-item-link">Душевые системы</a>
+							</li>
+							<li class="catalog-item">
+								<a href="#" class="catalog-item-link">Душевые кабины</a>
+							</li>
+							<li class="catalog-item">
+								<a href="#" class="catalog-item-link">Душевые ограждения</a>
+							</li>
+							<li class="catalog-item">
+								<a href="#" class="catalog-item-link">Душевые поддоны</a>
+							</li>
+						</ul>
+						<ul class="col-6">
+							<li class="catalog-item">
+								<a href="#" class="catalog-item-link">Мебель для ванной 
+								комнаты</a>
+							</li>
+							<li class="catalog-item">
+								<a href="#" class="catalog-item-link">Консоли</a>
+							</li>
+							<li class="catalog-item">
+								<a href="#" class="catalog-item-link">Зеркала</a>
+							</li>
+							<li class="catalog-item">
+								<a href="#" class="catalog-item-link">Аксессуары</a>
+							</li>
+							<li class="catalog-item">
+								<a href="#" class="catalog-item-link">Полотенцесушители</a>
+							</li>
+							<li class="catalog-item">
+								<a href="#" class="catalog-item-link">Светильники</a>
+							</li>
+							<li class="catalog-item">
+								<a href="#" class="catalog-item-link">Инженерная 
+								сантехника</a>
+							</li>
+							<li class="catalog-item">
+								<a href="#" class="catalog-item-link">Плитка</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="navbar-list-item">
+			<a href="" class="item-link">Бренды</a>
+		</li>
+		<li class="navbar-list-item">
+			<a href="" class="item-link">Акции</a>
+		</li>
+		<li class="navbar-list-item">
+			<a href="" class="item-link">Sale</a>
+		</li>
+		<li class="navbar-list-item">
+			<a href="" class="item-link">Услуги</a>
+		</li>
+		<li class="navbar-list-item">
+			<a href="" class="item-link">Контакты</a>
+		</li>
+	</ul>
+</div>
+</div>
+</div>
+</div>
 </div>
 </header>
 
@@ -263,21 +459,21 @@
 		<div class="item">
 			<img src="image/slide.png" alt="" class="item-img">
 			<div class="slider-content">
-				<h1 class="title-h1">Сантехника <br> бизнес и премиум класса</h1>
+				<h1 class="title-h1">ЭКСКЛЮЗИВНАЯ САНТЕХНИКА</h1>
 				<h2 class="title-h2">Керамическая плитка</h2>
 			</div>
 		</div>
 		<div class="item">
 			<img src="image/slide.png" alt="" class="item-img">
 			<div class="slider-content">
-				<h1 class="title-h1">Сантехника <br> бизнес и премиум класса</h1>
+				<h1 class="title-h1">ЭКСКЛЮЗИВНАЯ САНТЕХНИКА</h1>
 				<h2 class="title-h2">Керамическая плитка</h2>
 			</div>
 		</div>
 		<div class="item">
 			<img src="image/slide.png" alt="" class="item-img">
 			<div class="slider-content">
-				<h1 class="title-h1">Сантехника <br> бизнес и премиум класса</h1>
+				<h1 class="title-h1">ЭКСКЛЮЗИВНАЯ САНТЕХНИКА</h1>
 				<h2 class="title-h2">Керамическая плитка</h2>
 			</div>
 		</div>
@@ -287,7 +483,7 @@
 <section class="catalog">
 	<div class="container">
 		<h2 class="title-h2">каталог</h2>
-		<div class="row">
+		<div class="row d-catalog">
 			<div class="col-lg-3">
 				<div class="card">
 					<a href="">
@@ -417,14 +613,148 @@
 				</div>
 			</div>
 		</div>
+		<div class="m-catalog">
+			<div id="m-catalog-s" class="owl-carousel owl-theme">
+				<div class="item">
+					<div class="card">
+						<a href="">
+							<img src="image/catalog1.png" alt="" class="card-img">
+							<div class="card-title">Мебель для ванной комнаты</div>
+						</a>
+					</div>
+				</div>
+				<div class="item">
+					<div class="card">
+						<a href="">
+							<img src="image/catalog2.png" alt="" class="card-img">
+							<div class="card-title">Ванны</div>
+						</a>
+					</div>
+				</div>
+				<div class="item">
+					<div class="card">
+						<a href="">
+							<img src="image/catalog3.png" alt="" class="card-img">
+							<div class="card-title">Смесители</div>
+						</a>
+					</div>
+				</div>
+				<div class="item">
+					<div class="card">
+						<a href="">
+							<img src="image/catalog4.png" alt="" class="card-img">
+							<div class="card-title">Аксессуары</div>
+						</a>
+					</div>
+				</div>
+				<div class="item">
+					<div class="card">
+						<a href="">
+							<img src="image/catalog5.png" alt="" class="card-img">
+							<div class="card-title">Унитазы и биде</div>
+						</a>
+					</div>
+				</div>
+				<div class="item">
+					<div class="card">
+						<a href="">
+							<img src="image/catalog6.png" alt="" class="card-img">
+							<div class="card-title">Раковины</div>
+						</a>
+					</div>
+				</div>
+				<div class="item">
+					<div class="card">
+						<a href="">
+							<img src="image/catalog7.png" alt="" class="card-img">
+							<div class="card-title">Консоли</div>
+						</a>
+					</div>
+				</div>
+				<div class="item">
+					<div class="card">
+						<a href="">
+							<img src="image/catalog8.png" alt="" class="card-img">
+							<div class="card-title">Зеркала</div>
+						</a>
+					</div>
+				</div>
+				<div class="item">
+					<div class="card">
+						<a href="">
+							<img src="image/catalog9.png" alt="" class="card-img">
+							<div class="card-title">Душевые системы</div>
+						</a>
+					</div>
+				</div>
+				<div class="item">
+					<div class="col-lg-3">
+						<div class="card">
+							<a href="">
+								<img src="image/catalog10.png" alt="" class="card-img">
+								<div class="card-title">Полотенце<br>сушители</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="card">
+						<a href="">
+							<img src="image/catalog11.png" alt="" class="card-img">
+							<div class="card-title">Светильники</div>
+						</a>
+					</div>
+				</div>
+				<div class="item">
+					<div class="card">
+						<a href="">
+							<img src="image/catalog12.png" alt="" class="card-img">
+							<div class="card-title">Душевые кабины</div>
+						</a>
+					</div>
+				</div>
+				<div class="item">
+					<div class="card">
+						<a href="">
+							<img src="image/catalog13.png" alt="" class="card-img">
+							<div class="card-title">Душевые ограждения</div>
+						</a>
+					</div>
+				</div>
+				<div class="item">
+					<div class="card">
+						<a href="">
+							<img src="image/catalog14.png" alt="" class="card-img">
+							<div class="card-title">Душевые поддоны</div>
+						</a>
+					</div>
+				</div>
+				<div class="item">
+					<div class="card">
+						<a href="">
+							<img src="image/catalog15.png" alt="" class="card-img">
+							<div class="card-title">Инженерная сантехника</div>
+						</a>
+					</div>
+				</div>
+				<div class="item">
+					<div class="card">
+						<a href="">
+							<img src="image/catalog16.png" alt="" class="card-img">
+							<div class="card-title">СПА зона</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 </section>
 
 <section class="tile">
 	<div class="container">
-		<h2 class="title-h2">Плитка</h2>
-		<div class="row text-center">
-			<div class="col-lg-1-5">
+		<h2 class="title-h2">Керамическая плитка</h2>
+		<div id="tile-s" class="owl-carousel owl-theme">
+			<div class="item">
 				<div class="card">
 					<a href="">
 						<img src="image/tile1.png" alt="" class="card-img">
@@ -433,7 +763,7 @@
 					</a>
 				</div>
 			</div>
-			<div class="col-lg-1-5">
+			<div class="item">
 				<div class="card">
 					<a href="">
 						<img src="image/tile2.png" alt="" class="card-img">
@@ -441,7 +771,7 @@
 					</a>
 				</div>
 			</div>
-			<div class="col-lg-1-5">
+			<div class="item">
 				<div class="card">
 					<a href="">
 						<img src="image/tile3.png" alt="" class="card-img">
@@ -449,7 +779,7 @@
 					</a>
 				</div>
 			</div>
-			<div class="col-lg-1-5">
+			<div class="item">
 				<div class="card">
 					<a href="">
 						<img src="image/tile4.png" alt="" class="card-img">
@@ -457,7 +787,89 @@
 					</a>
 				</div>
 			</div>
-			<div class="col-lg-1-5">
+			<div class="item">
+				<div class="card">
+					<a href="">
+						<img src="image/tile5.png" alt="" class="card-img">
+						<div class="card-title">Натуральный камень</div>
+					</a>
+				</div>
+			</div>
+			<div class="item">
+				<div class="card">
+					<a href="">
+						<img src="image/tile1.png" alt="" class="card-img">
+						<div class="card-title">Керамическая 
+						плитка</div>
+					</a>
+				</div>
+			</div>
+			<div class="item">
+				<div class="card">
+					<a href="">
+						<img src="image/tile2.png" alt="" class="card-img">
+						<div class="card-title">Керамогранит</div>
+					</a>
+				</div>
+			</div>
+			<div class="item">
+				<div class="card">
+					<a href="">
+						<img src="image/tile3.png" alt="" class="card-img">
+						<div class="card-title">Мозаика</div>
+					</a>
+				</div>
+			</div>
+			<div class="item">
+				<div class="card">
+					<a href="">
+						<img src="image/tile4.png" alt="" class="card-img">
+						<div class="card-title">Ступени</div>
+					</a>
+				</div>
+			</div>
+			<div class="item">
+				<div class="card">
+					<a href="">
+						<img src="image/tile5.png" alt="" class="card-img">
+						<div class="card-title">Натуральный камень</div>
+					</a>
+				</div>
+			</div>
+			<div class="item">
+				<div class="card">
+					<a href="">
+						<img src="image/tile1.png" alt="" class="card-img">
+						<div class="card-title">Керамическая 
+						плитка</div>
+					</a>
+				</div>
+			</div>
+			<div class="item">
+				<div class="card">
+					<a href="">
+						<img src="image/tile2.png" alt="" class="card-img">
+						<div class="card-title">Керамогранит</div>
+					</a>
+				</div>
+			</div>
+			<div class="item">
+				<div class="card">
+					<a href="">
+						<img src="image/tile3.png" alt="" class="card-img">
+						<div class="card-title">Мозаика</div>
+					</a>
+				</div>
+			</div>
+			<div class="item">
+				<div class="card">
+					<a href="">
+						<img src="image/tile4.png" alt="" class="card-img">
+						<div class="card-title">Ступени</div>
+					</a>
+				</div>
+			</div>
+			<div class="item">
 				<div class="card">
 					<a href="">
 						<img src="image/tile5.png" alt="" class="card-img">
@@ -725,7 +1137,7 @@
 	<div class="container">
 		<h2 class="title-h2">Преимущества</h2>
 		<div class="row text-center">
-			<div class="col-lg-1-5">
+			<div class="col-sm col-lg-1-5 ">
 				<div class="advantage-card">
 					<div class="advantage-image">
 						<img src="image/advantage1.png" alt="">
@@ -733,7 +1145,7 @@
 					<div class="advantage-title">Большой ассортимент</div>
 				</div>
 			</div>
-			<div class="col-lg-1-5">
+			<div class="col-lg-1-5 col-sm">
 				<div class="advantage-card">
 					<div class="advantage-image">
 						<img src="image/advantage2.png" alt="">
@@ -741,7 +1153,7 @@
 					<div class="advantage-title">Европейское качество</div>
 				</div>
 			</div>
-			<div class="col-lg-1-5">
+			<div class="col-lg-1-5 col-sm">
 				<div class="advantage-card">
 					<div class="advantage-image">
 						<img src="image/advantage3.png" alt="">
@@ -749,7 +1161,7 @@
 					<div class="advantage-title">Информационно-техническая поддержка</div>
 				</div>
 			</div>
-			<div class="col-lg-1-5">
+			<div class="col-lg-1-5 col-sm">
 				<div class="advantage-card">
 					<div class="advantage-image">
 						<img src="image/advantage4.png" alt="">
@@ -757,7 +1169,7 @@
 					<div class="advantage-title">Дизайн-проект в подарок</div>
 				</div>
 			</div>
-			<div class="col-lg-1-5">
+			<div class="col-lg-1-5 col-sm">
 				<div class="advantage-card">
 					<div class="advantage-image">
 						<img src="image/advantage5.png" alt="">
@@ -775,10 +1187,10 @@
 			<div class="row">
 				<div class="col-lg-8">
 					<div class="call-back-content">
-						<h2 class="title-h2">Задать вопрос персональному менеджеру</h2>
+						<h2 class="title-h2">Задать вопрос <br> персональному менеджеру</h2>
 						<p class="call-back-text">Нужна помощь в оформлении ванной комнаты?<br>
 						Наши сотрудники с радостью готовы Вам помочь в этом!</p>
-						<button class="btn-call">Заказать консультацию</button>
+						<button class="btn-call open-modal">Заказать консультацию</button>
 					</div>
 				</div>
 				<div class="col-lg-4"></div>
@@ -790,7 +1202,7 @@
 
 <section class="hits">
 	<div class="container">
-		<h2 class="title-h2">Хиты продаж</h2>
+		<h2 class="title-h2">Популярные запросы</h2>
 		<div class="row text-center">
 			<div class="col-lg-3">
 				<a href="">
@@ -1192,7 +1604,7 @@
 			<button class="footer-btn" type="submit">Подписаться</button>
 		</form>
 		<div class="row">
-			<div class="col-lg-3">
+			<div class="col-lg-3 footer-developer">
 				<a href="" class="footer-logo">
 					<img src="image/footer-logo.png" alt="">
 				</a>
@@ -1203,7 +1615,7 @@
 				<a class="footer-space" href="">Разработано в
 					<img src="image/space-logo.png" alt=""></a>
 				</div>
-				<div class="col-lg-3">
+				<div class="col-lg-3 col-6">
 					<ul class="footer-navbar-list">
 						<li class="footer-navbar-list-item">
 							<a href="#" class="footer-navbar-list-item-link">каталог</a>
@@ -1225,7 +1637,7 @@
 						</li>
 					</ul>
 				</div>
-				<div class="col-lg-3">
+				<div class="col-lg-3 col-6">
 					<ul class="footer-navbar-list">
 						<li class="footer-navbar-list-item">
 							<a href="#" class="footer-navbar-list-item-link">Контакты</a>
@@ -1247,7 +1659,7 @@
 						</li>
 					</ul>
 				</div>
-				<div class="col-lg-3">
+				<div class="col-lg-3 footer-info">
 					<a href="tel:+74952740636" class="footer-info-link">
 						<div class="footer-image">
 							<img src="image/call (3).svg" alt="">
@@ -1271,29 +1683,67 @@
 					<div class="footer-social">
 						<a href="" class="footer-social-link">
 							<div class="footer-social">
-								<img src="image/vk (6).svg" alt="">
+								<img src="image/vk(6).svg" alt="">
 							</div>
 						</a>
 						<a href="" class="footer-social-link">
 							<div class="footer-social">
-								<img src="image/instagram (16).svg" alt="">
+								<img src="image/instagram(16).svg" alt="">
 							</div>
 						</a>
 						<a href="" class="footer-social-link">
 							<div class="footer-social">
-								<img src="image/youtube (5).svg" alt="">
+								<img src="image/YOUTUBE_icon-icons.com_65487.svg" alt="">
 							</div>
 						</a>
 					</div>
 				</div>
+				<div class="col-lg-3 footer-developer-m">
+					<a href="" class="footer-logo">
+						<img src="image/footer-logo.png" alt="">
+					</a>
+					<p class="footer-text">2020 © Водолейстайл</p>
+					<div class="footer-conf">
+						<a class="footer-conf-link" href="">Политика конфидециальности</a>
+					</div>
+					<a class="footer-space" href="">Разработано в
+						<img src="image/space-logo.png" alt=""></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+		<div class="modal-overlay">
+			<div class="container">
+				<div class="modal">
+					<div class="modal-content">
+						<a class="close-modal">
+							<svg viewBox="0 0 20 20">
+								<path fill="#000000" d="M15.898,4.045c-0.271-0.272-0.713-0.272-0.986,0l-4.71,4.711L5.493,4.045c-0.272-0.272-0.714-0.272-0.986,0s-0.272,0.714,0,0.986l4.709,4.711l-4.71,4.711c-0.272,0.271-0.272,0.713,0,0.986c0.136,0.136,0.314,0.203,0.492,0.203c0.179,0,0.357-0.067,0.493-0.203l4.711-4.711l4.71,4.711c0.137,0.136,0.314,0.203,0.494,0.203c0.178,0,0.355-0.067,0.492-0.203c0.273-0.273,0.273-0.715,0-0.986l-4.711-4.711l4.711-4.711C16.172,4.759,16.172,4.317,15.898,4.045z"></path>
+							</svg>
+						</a>
+						<form class="question" action="">
+							<h2 class="question-title-h2">наш менеджер свяжется с вами</h2>
+							<div class="question-input-group">
+								<input type="text" placeholder="Имя">
+								<input type="tel" placeholder="Телефон">
+								<input type="mail" placeholder="E-mail">
+							</div>
+							<input class="question-input" type="text" placeholder="Ваш вопрос">
+							<button class="question-btn" type="submit">Отправить</button>
+							<p>Нажимая на кнопку “Отправить”, Вы даете согласие на обработку персональных данных</p>
+						</form>
+					</div>
+				</div>
 			</div>
 		</div>
-	</footer>
 
 
-	<script src="js/jquery-3.4.1.min.js"></script>
-	<script src="js/owl.carousel.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/script.js"></script>
-</body>
-</html>
+
+		<script src="js/jquery-3.4.1.min.js"></script>
+		<script src="js/owl.carousel.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+	</html>
