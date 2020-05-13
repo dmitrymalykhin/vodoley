@@ -113,6 +113,10 @@ header {
 .header-info-work-time-info > span:not(:first-child) {
 	margin-left: 25px;
 }
+.header-info-phone-link {
+	display: flex;
+	align-items: center;
+}
 .header-info-phone-link span {
 	border-bottom: 3px #e5e8eb solid;
 	padding-bottom: 2px;
