@@ -227,9 +227,10 @@ header {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+	align-items: center;
 }
 .right-block  svg {
-	height: 17px;
+	height: 20px;
 	width: 20px;
 }
 .compare {
@@ -251,8 +252,14 @@ header {
 	fill: #bfc6cc;
 	color: #bfc6cc;
 }
-.favorites {
+.favorites a{
 	margin-right: 35px;
+	display: flex;
+	align-items: center;
+}
+.cart a{
+	display: flex;
+	align-items: center;
 }
 .navbar-list {
 	display: -webkit-box;
